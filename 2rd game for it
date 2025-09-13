@@ -1,0 +1,19 @@
+    git add .
+    git commit -m "Initial project setup"
+    git remote add origin https://github.com/YourUsername/YourRepositoryName.git
+    git push -u origin master
+    // FPSGameMode.h
+#pragma once
+
+#include "CoreMinimal.h"
+#include "GameFramework/GameModeBase.h"
+#include "FPSGameMode.generated.h"
+
+UCLASS()
+class YOURPROJECTNAME_API AFPSGameMode : public AGameModeBase
+{
+    GENERATED_BODY()
+
+public:
+    AFPSGameMode();
+};
