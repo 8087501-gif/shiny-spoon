@@ -1,0 +1,2 @@
+   // In your .cpp file, include "Engine/Engine.h" for this
+UE_LOG(LogTemp, Warning, TEXT("Character position is: %s"), *GetActorLocation().ToString());
